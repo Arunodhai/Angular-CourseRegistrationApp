@@ -1,0 +1,26 @@
+<!-- registered-courses.component.html -->
+
+<div class="container table-container">
+  <h2 class="text-center">Registered Courses</h2>
+
+  <div class="col-8 mx-auto">
+    <table class="table">
+      <thead class="table-header">
+        <tr>
+          <th>Name</th>
+          <th>Roll No</th>
+          <th>Course</th>
+          <th>Semester</th>
+        </tr>
+      </thead>
+      <tbody class="table-content">
+        <tr *ngFor="let course of registeredCourses">
+          <td>{{ course.name }}</td>
+          <td>{{ course.rollNo }}</td>
+          <td>{{ course.course }}</td>
+          <td>{{ course.semester }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

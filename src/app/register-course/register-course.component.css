@@ -1,0 +1,37 @@
+/* styles.scss */
+
+.container {
+  margin-top: 2rem;
+}
+
+.mat-card {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #ffffff; /* Card background color */
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mat-card-header {
+  background-color: #ffffff; /* Header background color */
+  color: #000000; /* Header text color */
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.mat-card-content {
+  padding: 16px;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mat-raised-button {
+  width: 100%;
+  margin-top: 16px;
+}

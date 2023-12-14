@@ -1,0 +1,22 @@
+<!-- Your Component's HTML -->
+
+<div class="container table-container">
+  <h2 class="text-center">Faculty Details</h2>
+
+  <div class="col-8 mx-auto">
+    <table class="table">
+      <thead class="table-header">
+        <tr>
+          <th>Attribute</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody class="table-content">
+        <tr *ngFor="let entry of facultyDetails | keyvalue">
+          <td>{{ entry.key }}</td>
+          <td>{{ entry.value }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
